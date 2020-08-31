@@ -1,0 +1,275 @@
+body {
+    background: url("pictures/background.png");
+  }
+
+.homepagebox {
+    /* Rectangle 2 */
+
+    margin: auto;
+    margin-top: 200px;
+    width: 350px;
+    height: 524px;
+    left: 545px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 110px;
+    margin-top: 50px;
+    width: 139px;
+    height: 139px;
+    left: 650px;
+    top: 289px;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 20px;
+    height: 47px;
+    left: 613px;
+    top: 461px;
+
+    font-family: Courier New;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+h2 {
+    margin: auto;
+    height: 16px;
+    left: 656px;
+    top: 517px;
+
+    font-family: Courier New;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.vertical-menu {
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .vertical-menu a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .vertical-menu a:hover {
+    text-decoration: underline;
+  }
+
+  .profilepicture {
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 350px;
+    height: 350px;
+    left: 145px;
+    top: 250px;
+    
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+  .infobox {
+    position: absolute;
+    margin-left: 263px;
+    margin-top: -41px;
+    width: 350px;
+    height: 153px;
+    left: 145px;
+    top: 621px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+ p {
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #000000;
+  }
+
+  .aboutbox {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -42px;
+    width: 779px;
+    height: 524px;
+    left: 515px;
+    top: 250px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+  h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    left: 541px;
+    top: 263px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    
+    text-align: left;
+    text-decoration-line: underline;
+    
+    color: #000000;
+  }
+
+  h5 {
+    margin-left: 20px;
+    margin-top: -40px;
+    width: 705px;
+    height: 210px;
+    left: 541px;
+    top: 320px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+  }
+
+  .video {
+      margin-left: 150px;
+      margin-top: -20px;
+  }
+
+  .backmenu {
+    width: 200px;
+    margin: auto;
+    margin-right: -50px;
+    margin-top: -20px;
+  }
+  
+  .backmenu a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .backmenu a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .blogbox {
+    margin-left: 450px;
+    width: 1000px;
+    height: 700px;
+
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .blogbox {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  h6 {
+    margin-top:-10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+
+h7 {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+h8 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.logoblog {
+    margin-left: 850px;
+    margin-top: 100px;
+    width: 139px;
+    height: 139px;
+    left: 650px;
+    top: 289px;
+}
