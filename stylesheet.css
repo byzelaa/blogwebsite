@@ -273,3 +273,66 @@ h8 {
     left: 650px;
     top: 289px;
 }
+
+.contactbox {
+  margin: auto;
+  margin-top: 300px;
+  width: 1000px;
+  height: 300px;
+  left: 220px;
+  top: 362px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+h9 {
+  margin-left: 400px;
+  width: 148px;
+  height: 47px;
+  left: 646px;
+  top: 300px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 100px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+table, th, td {
+  border: none;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sns {
+  height: 100px;
+  width: auto;
+}
+
+.backmenu2 {
+  width: 200px;
+  margin: auto;
+  margin-right: -50px;
+  margin-top: 30px;
+}
+
+.backmenu2 a {
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.backmenu2 a:hover {
+  text-decoration: underline;
+}
